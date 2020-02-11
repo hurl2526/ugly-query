@@ -2,6 +2,7 @@ const body = document.querySelector('body')
 body.style.backgroundImage = "url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.lowgif.com%2Fsmall%2Ff98b19d634734b5e-rainbow-vomiting-ugly-pimples-colors-beautiful-psychedelic.gif&f=1&nofb=1')"
 
 const heading = document.querySelector('h1')
+heading.style.fontFamily = 'cursive'
 heading.style.fontSize = '270px';
 heading.style.color = '#39FF14'
 heading.style.border = 'thick dotted #FE7F01'
@@ -23,15 +24,16 @@ const ul = document.querySelector('ul')
 ul.style.backgroundImage = "url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F37tuh92v7fylxXhd4A%2Fgiphy.gif&f=1&nofb=1')"
 
 const li = document.querySelector('#a')
+li.style.fontVariant = 'smallCaps'
 li.style.letterSpacing = '5px'
 li.style.fontWeight = 'bold'
 li.style.border = 'thick dotted #FE7F01'
 li.style.color = 'white'
 
+
 const ol = document.querySelector('ol')
 ol.style.border = 'thick dotted #39FF14'
 ol.style.color = 'white'
-ol.style.fontSize = '50px'
 ol.style.letterSpacing = '10px'
 ol.style.lineHeight = '20px'
 ol.style.fontWeight = 'bold'
@@ -43,24 +45,8 @@ forms.style.backgroundImage = "url('https://external-content.duckduckgo.com/iu/?
 const textarea = document.querySelector('textarea')
 textarea.style.backgroundImage = "url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F24.media.tumblr.com%2Ftumblr_lpcbmxp8fa1qep1veo1_500.gif&f=1&nofb=1')"
 
+const input = document.querySelector('input')
+input.style.backgroundImage = "url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.solidbackgrounds.com%2Fimages%2F1920x1080%2F1920x1080-bright-green-solid-color-background.jpg&f=1&nofb=1')"
 
-
-// const image = document.querySelector('img')
-// image.src = 'http://www.tioxic.com/wp-content/uploads/trex_4.jpg';
-// image.style.height = '300px'
-// image.style.width = '300px'
-
-
-// const newImage = document.createElement('img');
-// newImage.src = 'https://10ztalk.com/wp-content/uploads/2020/02/Trump-Insists-Real-Photo-Revealing-His-Fake-Tan-Is-Fake.jpg'
-// newImage.style.height = '300px'
-// newImage.style.width = '300px'
-// const img2 = document.querySelector('div');
-// img2.appendChild(newImage);
-
-// const newLi = document.createElement('li');
-// newLi.className = 'item' 
-// newLi.id = 'item-16'
-// newLi.innerText= 'Won/t get fooled again'
-// const list = document.querySelector('ul');
-// list.appendChild(newLi);
+const input2 = document.querySelector('#input2')
+input2.style.backgroundImage = "url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FKvJyd4FwD1g%2Fhqdefault.jpg&f=1&nofb=1')"
