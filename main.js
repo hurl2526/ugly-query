@@ -20,12 +20,21 @@ p2.style.color = "white"
 p2.style.letterSpacing = '-2px'
 
 const ul = document.querySelector('ul')
-ul.style.border = 'thick solid #FE7F01'
 ul.style.backgroundImage = "url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F37tuh92v7fylxXhd4A%2Fgiphy.gif&f=1&nofb=1')"
 
+const li = document.querySelector('#a')
+li.style.letterSpacing = '5px'
+li.style.fontWeight = 'bold'
+li.style.border = 'thick dotted #FE7F01'
+li.style.color = 'white'
+
 const ol = document.querySelector('ol')
+ol.style.border = 'thick dotted #39FF14'
+ol.style.color = 'white'
 ol.style.fontSize = '50px'
+ol.style.letterSpacing = '10px'
 ol.style.lineHeight = '20px'
+ol.style.fontWeight = 'bold'
 ol.style.backgroundImage = "url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FD3m66mDjWZ5EA%2Fgiphy.gif&f=1&nofb=1')"
 
 const forms = document.querySelector('form')
