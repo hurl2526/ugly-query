@@ -10,7 +10,7 @@ heading.style.backgroundImage = "url('https://external-content.duckduckgo.com/iu
 const h3 = document.querySelector('#animate');
 h3.style.color = "#FE7F01"
 h3.style.border = 'thick dotted #FE7F01'
-h3.style.backgroundImage = "url('https://static.independent.co.uk/s3fs-public/styles/story_medium/public/thumbnails/image/2017/02/15/11/1-1.png')"
+h3.style.backgroundImage = "url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F68.media.tumblr.com%2Fae3177ae4b4f74fad02a9b2dbd825543%2Ftumblr_osjvtgUm6Q1w43wzfo1_400.gif&f=1&nofb=1')"
 
 const p1 = document.querySelector('p')
 p1.style.color = "white"
@@ -20,6 +20,7 @@ p2.style.color = "white"
 p2.style.letterSpacing = '-2px'
 
 const ul = document.querySelector('ul')
+ul.style.border = 'thick solid #FE7F01'
 ul.style.backgroundImage = "url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F37tuh92v7fylxXhd4A%2Fgiphy.gif&f=1&nofb=1')"
 
 const ol = document.querySelector('ol')
@@ -27,8 +28,11 @@ ol.style.fontSize = '50px'
 ol.style.lineHeight = '20px'
 ol.style.backgroundImage = "url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FD3m66mDjWZ5EA%2Fgiphy.gif&f=1&nofb=1')"
 
-const forms = document.querySelector('textarea')
-forms.style.backgroundImage = "url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F24.media.tumblr.com%2Ftumblr_lpcbmxp8fa1qep1veo1_500.gif&f=1&nofb=1')"
+const forms = document.querySelector('form')
+forms.style.backgroundImage = "url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F5wWf7Hg7xve0LYdLhxC%2Fgiphy.gif&f=1&nofb=1')"
+
+const textarea = document.querySelector('textarea')
+textarea.style.backgroundImage = "url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F24.media.tumblr.com%2Ftumblr_lpcbmxp8fa1qep1veo1_500.gif&f=1&nofb=1')"
 
 
 
