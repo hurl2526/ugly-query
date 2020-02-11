@@ -1,29 +1,34 @@
+const body = document.querySelector('body')
+body.style.backgroundImage = "url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.lowgif.com%2Fsmall%2Ff98b19d634734b5e-rainbow-vomiting-ugly-pimples-colors-beautiful-psychedelic.gif&f=1&nofb=1')"
+
 const heading = document.querySelector('h1')
-heading.style.fontSize = '200px';
-heading.style.border = 'thick dotted green'
-heading.style.textShadow = '0 6px 4px #85c226,-3px -5px 4px #fe2192,3px -5px 4px #f7c200;'
-heading.style.backgroundImage = "url('https://assets.change.org/photos/1/te/pm/CJTepmtOAFHnwwc-1600x900-noPad.jpg?1486500295')"
+heading.style.fontSize = '270px';
+heading.style.color = '#39FF14'
+heading.style.border = 'thick dotted #FE7F01'
+heading.style.backgroundImage = "url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F-N4sTjRovFKU%2FUZkXQiHnyuI%2FAAAAAAAABAI%2FMKNi5pZe338%2Fs1600%2Ffunny-gifs-wtf-where-did-you-get-that.gif&f=1&nofb=1')"
 
-const paragraph1 = document.querySelector('p');
-var textWrapper = document.querySelector('p');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+const h3 = document.querySelector('#animate');
+h3.style.color = "#FE7F01"
+h3.style.border = 'thick dotted #FE7F01'
+h3.style.backgroundImage = "url('https://static.independent.co.uk/s3fs-public/styles/story_medium/public/thumbnails/image/2017/02/15/11/1-1.png')"
 
-anime.timeline({loop: true})
-  .add({
-    targets: 'p',
-    scale: [4,1],
-    opacity: [0,1],
-    translateZ: 0,
-    easing: "easeOutExpo",
-    duration: 950,
-    delay: (el, i) => 70*i
-  }).add({
-    targets: 'p',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
+const p1 = document.querySelector('p')
+p1.style.color = "white"
+p1.style.letterSpacing = '5px'
+const p2 = document.querySelector('#p2')
+p2.style.color = "white"
+p2.style.letterSpacing = '-2px'
+
+const ul = document.querySelector('ul')
+ul.style.backgroundImage = "url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F37tuh92v7fylxXhd4A%2Fgiphy.gif&f=1&nofb=1')"
+
+const ol = document.querySelector('ol')
+ol.style.fontSize = '50px'
+ol.style.lineHeight = '20px'
+ol.style.backgroundImage = "url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FD3m66mDjWZ5EA%2Fgiphy.gif&f=1&nofb=1')"
+
+const forms = document.querySelector('textarea')
+forms.style.backgroundImage = "url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F24.media.tumblr.com%2Ftumblr_lpcbmxp8fa1qep1veo1_500.gif&f=1&nofb=1')"
 
 
 
